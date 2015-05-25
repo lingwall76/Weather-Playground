@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2688F1E41B13BD2B005537BF /* WPNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2688F1E31B13BD2B005537BF /* WPNetworkController.m */; };
+		2688F1E71B13C75E005537BF /* WeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2688F1E61B13C75E005537BF /* WeatherController.m */; };
+		2688F1EA1B13C776005537BF /* WPWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 2688F1E91B13C776005537BF /* WPWeather.m */; };
 		7167C6871950376400FD8F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167C6861950376400FD8F55 /* Foundation.framework */; };
 		7167C6891950376400FD8F55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167C6881950376400FD8F55 /* CoreGraphics.framework */; };
 		7167C68B1950376400FD8F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167C68A1950376400FD8F55 /* UIKit.framework */; };
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		2688F1E21B13BD2B005537BF /* WPNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPNetworkController.h; sourceTree = "<group>"; };
 		2688F1E31B13BD2B005537BF /* WPNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPNetworkController.m; sourceTree = "<group>"; };
+		2688F1E51B13C75E005537BF /* WeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherController.h; sourceTree = "<group>"; };
+		2688F1E61B13C75E005537BF /* WeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherController.m; sourceTree = "<group>"; };
+		2688F1E81B13C776005537BF /* WPWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPWeather.h; sourceTree = "<group>"; };
+		2688F1E91B13C776005537BF /* WPWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPWeather.m; sourceTree = "<group>"; };
 		4D658A07A9C2BFE9015BF898 /* Pods-Weather Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather Playground/Pods-Weather Playground.release.xcconfig"; sourceTree = "<group>"; };
 		7167C6831950376400FD8F55 /* Weather Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167C6861950376400FD8F55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,6 +141,10 @@
 				7167C6961950376400FD8F55 /* WPAppDelegate.m */,
 				2688F1E21B13BD2B005537BF /* WPNetworkController.h */,
 				2688F1E31B13BD2B005537BF /* WPNetworkController.m */,
+				2688F1E51B13C75E005537BF /* WeatherController.h */,
+				2688F1E61B13C75E005537BF /* WeatherController.m */,
+				2688F1E81B13C776005537BF /* WPWeather.h */,
+				2688F1E91B13C776005537BF /* WPWeather.m */,
 				7167C6981950376400FD8F55 /* Main.storyboard */,
 				7167C69B1950376400FD8F55 /* WPViewController.h */,
 				7167C69C1950376400FD8F55 /* WPViewController.m */,
@@ -309,6 +319,8 @@
 				7167C6931950376400FD8F55 /* main.m in Sources */,
 				2688F1E41B13BD2B005537BF /* WPNetworkController.m in Sources */,
 				7167C6971950376400FD8F55 /* WPAppDelegate.m in Sources */,
+				2688F1EA1B13C776005537BF /* WPWeather.m in Sources */,
+				2688F1E71B13C75E005537BF /* WeatherController.m in Sources */,
 				7167C69D1950376400FD8F55 /* WPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

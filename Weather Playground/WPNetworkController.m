@@ -8,23 +8,20 @@
 
 #import "WPNetworkController.h"
 
+
 @implementation WPNetworkController
 
 
 
-+ (instancetype)sharedInstance
-{
-    static <#ClassName#> *sharedInstance = nil;
++ (AFHTTPSessionManager *)api  {
+    
+    static AFHTTPSessionManager *api = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedInstance = [[<#CurrentUser#> alloc] init];
+        api = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:@"http://api.openweathermap.org/data/2.5/"]];
+        api.responseSerializer = [AFJSONResponseSerializer serializer];
     });
-    
-    return sharedInstance;
-    
-    
-
-    
+    return api;
 }
 
 

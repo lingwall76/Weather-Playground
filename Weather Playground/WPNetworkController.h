@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking.h>
 
 @interface WPNetworkController : NSObject
+
+
++ (AFHTTPSessionManager *)api;
+
 
 @end
