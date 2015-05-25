@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7FDF5101-37E7-4866-B64F-DE185891EFFB</string>
+	<string>7DC558C1-61EC-4A5A-B57D-D8FE48D2BACB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Weather Playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7C5B8507104926494962B7C25AE66712F3DC1CF0</key>
-		<string>https://github.com/trm36/Weather-Playground.git</string>
+		<string>https://github.com/lingwall76/Weather-Playground.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Weather Playground.xcworkspace</string>
@@ -21,7 +21,7 @@
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/trm36/Weather-Playground.git</string>
+	<string>https://github.com/lingwall76/Weather-Playground.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
